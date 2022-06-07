@@ -104,23 +104,10 @@ a:hover{
     color: hsl(179, 100%, 13%);
 }
 
-.card:nth-child(1) a:hover{
-    background-color: hsl(31, 77%, 52%);
-    color: hsl(0, 0%, 95%);
-}
-
-.card:nth-child(2) a:hover{
-    background-color: hsl(184, 100%, 22%);
-    color: hsl(0, 0%, 95%);
-}
-
-.card:nth-child(3) a:hover{
-    background-color: hsl(179, 100%, 13%);
-    color: hsl(0, 0%, 95%);
-}
-
-a:hover{
+.card a:hover{
+    background: rgba(0,0,0,0);
     border: hsl(0, 0%, 95%) solid 2px;
+    color: hsl(0, 0%, 95%);
 }
 
 @media(max-width: 1016px){
